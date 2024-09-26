@@ -1,0 +1,7 @@
+services:
+  tts-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./output:/app/output
